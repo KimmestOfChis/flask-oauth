@@ -1,4 +1,4 @@
-from .test_config import client
+from .conftest import client
 
 def test_health_check(client):
     response = client.get('/_health')
