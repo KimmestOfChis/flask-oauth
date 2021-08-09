@@ -1,4 +1,4 @@
-from .conftest import client
+from flask_oauth.conftest import client
 
 def test_health_check(client):
     response = client.get('/_health')

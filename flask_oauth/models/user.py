@@ -1,4 +1,4 @@
-from .database import db
+from flask_oauth.database import db
 import re 
 from werkzeug.security import generate_password_hash, check_password_hash
 

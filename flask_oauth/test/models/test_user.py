@@ -1,5 +1,5 @@
 import pytest
-from .user import User
+from flask_oauth.models.user import User
 
 username = "Test User"
 email = "email@email.com"
