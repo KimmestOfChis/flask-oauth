@@ -1,3 +1,2 @@
-site.db
-test.db
+*.db
 *.pyc

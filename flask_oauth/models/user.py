@@ -39,7 +39,7 @@ class User(db.Model):
             raise AssertionError("invalid email format")
     
     def validate_password(self):
-        if self.password is not self.password_confirm:
+        if self.password != self.password_confirm:
             raise AssertionError("passwords do not match")
 
         if len(self.password) < 8:
